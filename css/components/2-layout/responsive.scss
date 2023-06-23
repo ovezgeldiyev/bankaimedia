@@ -1,0 +1,259 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  @include hero-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+  @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  h1 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  h2 {
+    font-size: 34px;
+    line-height: 42px;
+    &.sm {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+  h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  body {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  p {
+    &.big {
+      font-size: 24px;
+    }
+    &.sm {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    &.ex {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  @include header-xlg-xxlg;
+  @include hero-xlg-xxlg;
+  @include about-xlg-xxlg;
+  @include faq-xlg-xxlg;
+
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 38px;
+    &.sm {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+  h3 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  p {
+    &.ex {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+  .main {
+    padding-top: 85.39px;
+  }
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+  @include hero-lg-xlg;
+  @include about-lg-xlg;
+  @include process-lg-xlg;
+  @include intro-lg-xlg;
+}
+// 930px
+@include md-lg {
+  @include hero-md-lg;
+  @include about-md-lg;
+  @include intro-md-lg;
+}
+// 840px
+@include md-lg-extra {
+  @include process-md-lg-extra;
+  @include faq-md-lg-extra;
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 20px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  body {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .button {
+    &.big {
+      font-size: 24px;
+      line-height: 32px;
+      padding: 12px 16px;
+      border-width: 1px;
+    }
+  }
+  @include hero-sm-md;
+  @include join-sm-md;
+  @include intro-sm-md;
+  @include footer-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  @include hero-sm-md-extra;
+  @include intro-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 32px;
+    &.sm {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+  h3 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  body {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  p {
+    &.big {
+      font-size: 20px;
+    }
+    &.sm {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+  .main {
+    padding-top: 66.53px;
+  }
+  .video {
+    border-radius: 12px;
+    &__play {
+      width: 40px;
+      height: 40px;
+      &-icon {
+        width: 13px;
+        margin-left: 3px;
+        &::after {
+          width: 3px;
+        }
+        &::before {
+          width: 3px;
+        }
+      }
+    }
+  }
+  .button {
+    &.big {
+      font-size: 20px;
+      line-height: 24px;
+      padding: 11px 15px;
+    }
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include hero-xsm-sm;
+  @include join-xsm-sm;
+  @include about-xsm-sm;
+  @include process-xsm-sm;
+  @include intro-xsm-sm;
+  @include faq-xsm-sm;
+  @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  h2 {
+    font-size: 24px;
+    line-height: 30px;
+    &.sm {
+      font-size: 22px;
+      line-height: 28px;
+    }
+  }
+  @include hero-xxsm-xsm;
+  @include process-xxsm-xsm;
+  @include faq-xxsm-xsm;
+  @include intro-xxsm-xsm;
+}
+// 375px
+@include xxxsm-xxsm {
+  .auto__container {
+    padding: 0 15px;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 24px;
+    &.sm {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  .video {
+    &__play {
+      width: 35px;
+      height: 35px;
+      &-icon {
+        width: 11px;
+        margin-left: 2px;
+      }
+    }
+  }
+  @include intro-xxxsm-xxsm;
+}
+// 315px
+@include xxxxsm-xxxsm {
+  @include intro-xxxxsm-xxxsm;
+}
